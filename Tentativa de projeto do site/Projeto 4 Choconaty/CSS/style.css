@@ -1,0 +1,64 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("/Imagens/artwork.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    padding: 10px;
+    border-radius: 300px;
+    background-color: rgb(255, 130, 203)
+}
+
+.gradient-text {
+    width: 300px;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, rgb(248, 143, 204), rgba(58, 38, 0, 0.037));
+    color: rgba(255, 255, 255, 0.861); /* Cor de contraste para navegadores que não suportam o efeito */
+}
+
+.h2 {
+    width: 300px;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, rgb(248, 143, 204), rgba(58, 38, 0, 0.396));
+    color: rgba(255, 255, 255, 0.861); /* Cor de contraste para navegadores que não suportam o efeito */
+}
+.icones {
+        color: rgba(244, 244, 245, 0);
+        width: auto;
+        height: 50px;
+        display: inline-block;
+    font-size: 24px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.icones:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+
+.image-scroll {
+    display: flex;
+    overflow: hidden; /* Esconde as imagens que estão fora da área de visualização */
+    white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+    animation: scroll linear infinite; /* Animação de rolagem infinita */
+}
+
+.image-scroll img {
+    margin-right: 30px; /* Espaçamento entre as imagens */
+    
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(10%); /* Começa da esquerda */
+    }
+    100% {
+        transform: translateX(-50%); /* Volta para a direita */
+    }
+}
+
+h3 {
+    background-color: rgba(0, 0, 0, 0.617);
+    color: rgb(255, 255, 255);
+}

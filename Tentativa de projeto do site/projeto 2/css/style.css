@@ -1,0 +1,70 @@
+body {
+    background-image: url("../Imagens/imagem-1920.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff60;
+    margin-top: -30px;
+    border: 200px;
+    border-radius: 1000px 100px 1000px 15px;
+    padding-left: 1200px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f0eeee;
+    transition: 0.3s;  
+}
+
+.search-box {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.search-box input[type="text"] {
+    height: 42px;
+    width: 200%;
+    border: 1px solid #ffffff;
+    border-radius: 600px 600px 600px 600px;
+    font-size: 16px;
+}
+
+.search-box input[type="text"]::placeholder {
+    color: #bababa;
+}
+
+.search-box input[type="submit"] {
+    height: 34px;
+    width: 34px;
+    border: 1px solid #ffffff;
+    background: #cccccc;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.img1 {
+    animation: spin 2s linear infinite;
+    background-color: #ffffff;
+    width: 210px;
+    padding-left: 0px;
+    border-right: 200;
+    border-radius: 1000px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 2s linear infinite;
+}

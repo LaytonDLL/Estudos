@@ -1,0 +1,67 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(253, 181, 242);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    
+    padding: 10px;
+    border-radius: 300px;
+    background-color: rgb(255, 255, 255)
+}
+
+.gradient-text {
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    color: rgba(255, 117, 214, 0.861); /* Cor de contraste para navegadores que não suportam o efeito */
+}
+
+.h2 {
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(255, 117, 214, 0.861); /* Cor de contraste para navegadores que não suportam o efeito */
+}
+.icones {
+        color: rgba(231, 11, 11, 0);
+        width: auto;
+        height: 50px;
+        display: inline-block;
+    font-size: 24px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.icones:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+
+.image-scroll {
+    display: flex;
+    overflow: hidden; /* Esconde as imagens que estão fora da área de visualização */
+    white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+    display: flex;
+    justify-content: center;
+}
+
+.image-scroll img {
+    margin-right: 30px; /* Espaçamento entre as imagens */
+    
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(10%); /* Começa da esquerda */
+    }
+    100% {
+        transform: translateX(-50%); /* Volta para a direita */
+    }
+}
+
+h3 {
+    justify-content: center;
+    background-color: rgba(252, 252, 252, 0);
+    color: rgb(255, 255, 255);
+}
