@@ -6,13 +6,17 @@
 }
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
 menu {
     display: none;
+}
+
+article {
+    width: 100%;;
 }
 
 article::after {
