@@ -32,6 +32,7 @@ main {
 img {
     display: block;
     margin: auto;
+    background-repeat: no-repeat;
 }
 
 h1 {
