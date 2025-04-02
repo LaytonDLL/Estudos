@@ -7,7 +7,7 @@
 }
 
 body, html {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(141, 141, 141);
 }
 
 header {
@@ -20,6 +20,19 @@ header > h1 {
     text-align: center;;
 }
 
+i#burguer {
+    background-color: rgba(26, 5, 5, 0);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
 menu {
     display: block;
 }
@@ -43,14 +56,17 @@ menu > ul > li > a:hover {
 }
 
 main {
+    background-color: rgb(255, 255, 255);
     width: 90vw;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
 article > h2 {
+    background-color: ;
     padding-bottom: 20px;
     text-align: justify;
     text-indent: 20px;
